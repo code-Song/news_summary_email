@@ -11,7 +11,7 @@ except ImportError:
 
 # --- Gemini ---
 GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL: str   = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_MODEL: str   = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 
 # --- 네이버 ---
 NAVER_CLIENT_ID:     str = os.environ.get("NAVER_CLIENT_ID", "")
