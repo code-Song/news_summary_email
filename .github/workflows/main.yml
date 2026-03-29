@@ -27,6 +27,7 @@ jobs:
 
       - name: 뉴스 요약 봇 실행
         env:
+          TZ: "Asia/Seoul"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
