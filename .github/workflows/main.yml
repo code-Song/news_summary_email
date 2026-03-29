@@ -28,6 +28,7 @@ jobs:
       - name: 뉴스 요약 봇 실행
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
